@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HYAdvert_Oversea_Example' do
+  pod 'HYAdvert_Oversea', :path => '../'
+
+  target 'HYAdvert_Oversea_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
